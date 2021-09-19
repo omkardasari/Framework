@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-18T20:34:07 IST" name="Suite" finished-at="2021-09-18T20:35:31 IST" duration-ms="83512">
+    <groups>
+    </groups>
+    <test started-at="2021-09-18T20:34:07 IST" name="Test1" finished-at="2021-09-18T20:34:32 IST" duration-ms="25132">
+      <class name="testcases.Commerce.DDDRIVEN">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:testcases.Commerce.DDDRIVEN@25fb8912]" started-at="2021-09-18T20:34:07 IST" name="initializeDriver" finished-at="2021-09-18T20:34:17 IST" duration-ms="10298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="log()[pri:0, instance:testcases.Commerce.DDDRIVEN@25fb8912]" started-at="2021-09-18T20:34:17 IST" name="log" finished-at="2021-09-18T20:34:32 IST" duration-ms="14612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method is-config="true" signature="teaddown()[pri:0, instance:testcases.Commerce.DDDRIVEN@25fb8912]" started-at="2021-09-18T20:34:32 IST" name="teaddown" finished-at="2021-09-18T20:34:32 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaddown -->
+      </class> <!-- testcases.Commerce.DDDRIVEN -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-09-18T20:34:32 IST" name="Test2" finished-at="2021-09-18T20:35:02 IST" duration-ms="29244">
+      <class name="testcases.Commerce.LOGIN_Customer">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:testcases.Commerce.LOGIN_Customer@13fd2ccd]" started-at="2021-09-18T20:34:32 IST" name="initializeDriver" finished-at="2021-09-18T20:34:40 IST" duration-ms="7296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="log2(java.lang.String,java.lang.String)[pri:0, instance:testcases.Commerce.LOGIN_Customer@13fd2ccd]" started-at="2021-09-18T20:34:40 IST" name="log2" data-provider="getdata" finished-at="2021-09-18T20:35:01 IST" duration-ms="21549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log2 -->
+        <test-method is-config="true" signature="teaddown()[pri:0, instance:testcases.Commerce.LOGIN_Customer@13fd2ccd]" started-at="2021-09-18T20:35:01 IST" name="teaddown" finished-at="2021-09-18T20:35:02 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaddown -->
+      </class> <!-- testcases.Commerce.LOGIN_Customer -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-09-18T20:35:02 IST" name="Test3" finished-at="2021-09-18T20:35:31 IST" duration-ms="29050">
+      <class name="testcases.Commerce.roles_Customer">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:testcases.Commerce.roles_Customer@52b1beb6]" started-at="2021-09-18T20:35:02 IST" name="initializeDriver" finished-at="2021-09-18T20:35:07 IST" duration-ms="5334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="log3(java.lang.String,java.lang.String)[pri:0, instance:testcases.Commerce.roles_Customer@52b1beb6]" started-at="2021-09-18T20:35:07 IST" name="log3" data-provider="getdata" finished-at="2021-09-18T20:35:30 IST" duration-ms="23319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log3 -->
+        <test-method is-config="true" signature="teaddown()[pri:0, instance:testcases.Commerce.roles_Customer@52b1beb6]" started-at="2021-09-18T20:35:30 IST" name="teaddown" finished-at="2021-09-18T20:35:31 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaddown -->
+      </class> <!-- testcases.Commerce.roles_Customer -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

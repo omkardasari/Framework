@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+     <listener class-name="resorces.Commerce.ExtentReporterNG"/>
+</listeners> 
+  <test name="Test1">
+	 <classes>
+	   <class name="testcases.Commerce.DDDRIVEN"/>
+	 </classes>
+   </test>
+    <test name="Test2">
+	 <classes>
+	   <class name="testcases.Commerce.LOGIN_Customer"/>
+	 </classes>
+   </test>
+    <test name="Test3">
+	 <classes>
+	   <class name="testcases.Commerce.roles_Customer"/>
+	 </classes>
+   </test>
+</suite>
+
+
+
+
+
+
+
